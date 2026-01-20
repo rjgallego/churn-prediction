@@ -1,0 +1,14 @@
+# Virtual environment
+venv/
+.venv/
+
+# Reports
+reports/*.csv
+reports/*.json
+
+# VSCode
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
