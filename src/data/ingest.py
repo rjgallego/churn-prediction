@@ -1,8 +1,8 @@
 from pathlib import Path
 import pandas as pd
 
-from config import RAW_PATH, PROCESSED_PATH
-from src.schema import CUSTOMER_SCHEMA
+from src.config import RAW_PATH, PROCESSED_PATH
+from src.data.schema import CUSTOMER_SCHEMA
 
 def load_raw_data(path: str) -> pd.DataFrame:
     """Load and validate customer data from a CSV file.
