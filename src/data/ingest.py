@@ -67,7 +67,7 @@ def main():
     raw_df = load_raw_data(RAW_PATH)
     clean_df = clean_data(raw_df)
     validated_df = validate_data(clean_df)
-    write_processed_data(validate_df, PROCESSED_PATH)
+    write_processed_data(validated_df, PROCESSED_PATH)
 
 
 if __name__ == "__main__":
